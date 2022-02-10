@@ -1,0 +1,206 @@
+:root {
+  --font-family-title: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-title);
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 25px;
+  color: rgb(255, 255, 255);
+}
+h2 {
+  margin: 0 0 12px;
+  font-family: var(--font-family-title);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+h3 {
+  margin: 0 0 5px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+  margin: 0;
+}
+svg {
+  fill: rgb(255, 255, 255);
+  width: 35px;
+  height: 24px;
+  margin-right: 10px;
+}
+.container {
+  width: 730px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  display: flex;
+
+  background: radial-gradient(
+    circle,
+    rgba(238, 199, 174, 1) 66%,
+    rgba(148, 187, 233, 1) 72%
+  );
+}
+
+.sidebar {
+  margin-right: 5px;
+  padding: 10px 18px;
+  width: 296px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.portfolio {
+  text-align: center;
+  font-family: var(--font-family-title);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: rgb(206, 202, 202);
+}
+.portfolio p {
+  margin: 5px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #cecaca;
+}
+.avatar {
+  width: 195px;
+  border-radius: 93px;
+}
+
+.contactsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.contactsList li {
+  display: flex;
+  align-items: center;
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+.contactsList li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.contactsList p {
+  margin: 0;
+}
+
+.slillsList {
+  margin: 0 0 12px;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+  text-align: start;
+}
+
+.slillsList li {
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+.slillsList li:not(:last-child) {
+  margin-bottom: 5px;
+}
+.lenguages {
+  margin-right: 20px;
+}
+/* --Main content-- */
+.main-content {
+  padding: 20px 15px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.wrapperTitle {
+  width: 154px;
+  height: 24px;
+  padding: 3px 30px;
+
+  background: rgb(84, 84, 84);
+  border-radius: 5px;
+}
+
+.objective {
+  margin-bottom: 10px;
+}
+.objective p {
+  margin: 0;
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 5px;
+}
+
+.projectName {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 3px 30px;
+  border-radius: 5px;
+  color: #343434;
+  background: rgba(42, 89, 224, 0.3);
+  text-transform: uppercase;
+}
+.main-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.main-list__item {
+  border-radius: 5px;
+}
+.main-list__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.link {
+  font-size: 14px;
+  color: rgb(115, 128, 141);
+}
+.main-list__item p {
+  margin-bottom: 10px;
+}
+.technologies {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.workExperience {
+  margin-bottom: 10px;
+}
+.workExperience p {
+  text-align: justify;
+}
+
+.educationList li:not(:last-child) {
+  margin-bottom: 10px;
+}
